@@ -9,7 +9,7 @@
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-[Live Demo](https://workmarket-demo.vercel.app/) | [GitHub Repository](https://github.com/dhanush200322/freelancing-marketplace)
+[Live Demo](https://freelancing-marketplace-five.vercel.app/) | [GitHub Repository](https://github.com/dhanush200322/freelancing-marketplace)
 
 <br/>
 <div align="center">
