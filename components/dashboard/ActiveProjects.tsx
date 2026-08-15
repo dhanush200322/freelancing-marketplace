@@ -39,7 +39,7 @@ export function ActiveProjects() {
                   </span>
                   <span className="flex items-center">
                     <Clock className="w-3.5 h-3.5 mr-1" />
-                    Due {new Date(project.deadline).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
+                    Due {new Date(project.deadline).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
                   </span>
                   <span>{project.proposals} Proposals</span>
                 </div>

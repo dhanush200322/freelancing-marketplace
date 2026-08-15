@@ -144,7 +144,7 @@ export default async function FreelancerProfilePage({ params }: { params: Promis
                         </div>
                       </div>
                       <p className="text-[#475569] text-sm leading-relaxed mb-3">&quot;{review.text}&quot;</p>
-                      <p className="text-xs text-[#94a3b8]">{new Date(review.date).toLocaleDateString()}</p>
+                      <p className="text-xs text-[#94a3b8]">{new Date(review.date).toLocaleDateString('en-US')}</p>
                     </div>
                   ))}
                 </div>
@@ -207,7 +207,7 @@ export default async function FreelancerProfilePage({ params }: { params: Promis
               
               <div className="pt-4 border-t border-[#e2e8f0]">
                 <p className="text-xs text-[#64748b] text-center">
-                  Member since {new Date(freelancer.memberSince).toLocaleDateString(undefined, { year: 'numeric', month: 'long' })}
+                  Member since {new Date(freelancer.memberSince).toLocaleDateString('en-US', { year: 'numeric', month: 'long' })}
                 </p>
               </div>
             </div>

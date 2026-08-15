@@ -60,7 +60,7 @@ export function ProposalProjectSummary({ project }: ProposalProjectSummaryProps)
               <div>
                 <p className="text-xs font-medium text-[#64748b]">Deadline</p>
                 <p className="text-sm font-semibold text-[#1e293b]">
-                  {new Date(project.deadline).toLocaleDateString(undefined, { month: 'long', day: 'numeric', year: 'numeric' })}
+                  {new Date(project.deadline).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}
                 </p>
               </div>
             </div>

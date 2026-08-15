@@ -44,7 +44,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
               <div className="flex flex-wrap items-center gap-6 text-sm text-[#475569]">
                 <div className="flex items-center">
                   <Clock className="w-4 h-4 mr-2" />
-                  Posted {new Date(project.postedAt).toLocaleDateString()}
+                  Posted {new Date(project.postedAt).toLocaleDateString('en-US')}
                 </div>
                 <div className="flex items-center">
                   <MapPin className="w-4 h-4 mr-2" />
@@ -129,7 +129,7 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
                 <Calendar className="w-5 h-5 text-[#94a3b8] mr-3 mt-0.5 shrink-0" />
                 <div>
                   <p className="text-sm font-medium text-[#1e293b]">Deadline</p>
-                  <p className="text-sm text-[#475569]">{new Date(project.deadline).toLocaleDateString(undefined, { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</p>
+                  <p className="text-sm text-[#475569]">{new Date(project.deadline).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</p>
                 </div>
               </div>
               

@@ -79,7 +79,7 @@ export function ActivityTimeline({ activities }: ActivityTimelineProps) {
                 <div className="flex flex-col sm:flex-row sm:items-baseline justify-between mb-1">
                   <h4 className="font-bold text-[#1e293b]">{activity.title}</h4>
                   <span className="text-xs text-[#94a3b8] font-medium">
-                    {new Date(activity.date).toLocaleDateString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}
+                    {new Date(activity.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })}
                   </span>
                 </div>
                 <p className="text-sm text-[#475569]">{activity.description}</p>

@@ -45,7 +45,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         
         <span className="text-xs font-medium text-[#64748b] flex items-center mb-4">
           <Clock className="mr-1 h-3.5 w-3.5" />
-          Posted {new Date(project.postedAt).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
+          Posted {new Date(project.postedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
         </span>
         
         <p className="text-sm text-[#475569] mb-6 flex-1">

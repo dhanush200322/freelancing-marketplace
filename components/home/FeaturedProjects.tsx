@@ -59,7 +59,7 @@ export function FeaturedProjects() {
                     <Badge variant="secondary" className="bg-[#f1f5f9] text-[#475569] hover:bg-[#e2e8f0]">{project.category}</Badge>
                     <span className="text-xs font-medium text-[#64748b] flex items-center">
                       <Clock className="mr-1 h-3.5 w-3.5" />
-                      {new Date(project.postedAt).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
+                      {new Date(project.postedAt).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}
                     </span>
                   </div>
                   
