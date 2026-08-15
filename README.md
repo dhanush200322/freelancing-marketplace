@@ -11,6 +11,12 @@
 
 [Live Demo](https://workmarket-demo.vercel.app/) | [GitHub Repository](https://github.com/dhanush200322/freelancing-marketplace)
 
+<br/>
+<div align="center">
+  <img src="/public/hero-screenshot.png" alt="WorkMarket Hero Preview" width="100%" />
+</div>
+<br/>
+
 *Note: This is a frontend-only demonstration project using deterministic mock data. It is intentionally backend-free for portfolio presentation purposes.*
 
 ---
