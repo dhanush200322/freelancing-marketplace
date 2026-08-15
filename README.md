@@ -2,6 +2,12 @@
 
 > A modern frontend marketplace connecting clients with skilled freelancers through project discovery, profiles, proposals, and marketplace workflows.
 
+<br/>
+<div align="center">
+  <img src="/public/hero-screenshot.png" alt="WorkMarket Hero Preview" width="100%" />
+</div>
+<br/>
+
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
@@ -10,12 +16,6 @@
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 [Live Demo](https://freelancing-marketplace-five.vercel.app/) | [GitHub Repository](https://github.com/dhanush200322/freelancing-marketplace)
-
-<br/>
-<div align="center">
-  <img src="/public/hero-screenshot.png" alt="WorkMarket Hero Preview" width="100%" />
-</div>
-<br/>
 
 *Note: This is a frontend-only demonstration project using deterministic mock data. It is intentionally backend-free for portfolio presentation purposes.*
 
